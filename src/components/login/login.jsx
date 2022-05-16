@@ -23,6 +23,7 @@ function Login({ authService}) {
     // 
 
     useEffect(() => {
+        console.log('업데이트 될때마다 실행')
         authService //
         .onAuthChange(user => {
             user && goToMaker(user.uid)
