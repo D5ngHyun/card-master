@@ -13,3 +13,11 @@
   margin-bottom: 1em;
   color: makerGreen;
 }
+
+.loading {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 1px solid makerLightGrey;
+  border-top: 1px solid pink;
+}
